@@ -30,7 +30,7 @@ router.post("/:id/posts", validateUserId, validatePost, (req, res) => {
     });
 });
 
-//// GET REQUESTS ////
+///// GET REQUESTS /////
 
 router.get("/", (req, res) => {
   // do your magic!
